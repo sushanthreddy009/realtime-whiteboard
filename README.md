@@ -17,17 +17,23 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-1. Clone the repo:
+## Clone the repo:
 
 git clone https://github.com/your-username/realtime-whiteboard.git
 
-cd realtime-whiteboard
-npm install
+## Navigate to the project directory and install dependencies:
+   
+   cd realtime-whiteboard
+
+   npm install
+
+## Run the Keycloak server:
 
 docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak
 
-npm start
+## Start the development server:
 
+npm start
 
 
 ## Usage
