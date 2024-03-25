@@ -39,5 +39,6 @@ Contributions are welcome. Please open an issue to discuss proposed changes.
 ## License
 This project is open-sourced under the MIT License.
 
+## UI Screenshot
 ![UI Screenshot](https://github.com/sushanthreddy009/realtime-whiteboard/blob/main/UI_image.jpg)
 
