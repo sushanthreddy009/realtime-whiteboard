@@ -30,4 +30,14 @@ npm start
 
 
 
-UI [Create React App ][(https://github.com/sushanthreddy009/realtime-whiteboard/blob/main/UI_image.jpg)]
+## Usage
+After logging in through Keycloak, use the whiteboard on `http://localhost:3000`. Choose colors and brush sizes, and use the undo/redo buttons as needed.
+
+## Contributing
+Contributions are welcome. Please open an issue to discuss proposed changes.
+
+## License
+This project is open-sourced under the MIT License.
+
+![UI Screenshot](https://github.com/sushanthreddy009/realtime-whiteboard/blob/main/UI_image.jpg)
+
