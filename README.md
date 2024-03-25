@@ -15,32 +15,29 @@ This project is a web-based real-time collaborative whiteboard application that 
 These instructions will get you a copy of the project up and running on your local machine.
 
 
-### Installing
+## Installing
 
-## Clone the repo:
+### Clone the repo:
 
 git clone https://github.com/your-username/realtime-whiteboard.git
 
-## Navigate to the project directory and install dependencies:
+### Navigate to the project directory and install dependencies:
    
    cd realtime-whiteboard
 
    npm install
 
-## Run the Keycloak server:
+### Run the Keycloak server:
 
 docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak
 
-## Start the development server:
+### Start the development server:
 
 npm start
 
 
 ## Usage
 After logging in through Keycloak, use the whiteboard on `http://localhost:3000`. Choose colors and brush sizes, and use the undo/redo buttons as needed.
-
-## Contributing
-Contributions are welcome. Please open an issue to discuss proposed changes.
 
 ## License
 This project is open-sourced under the MIT License.
